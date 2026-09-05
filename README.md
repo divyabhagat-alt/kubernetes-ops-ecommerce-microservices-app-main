@@ -78,7 +78,16 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```bash
 git clone <your-repository-url>   
 ```
-
+'''bash
+cd kubernetes-ops-ecommerce-microservices-app-main/
+cd backend
+'''
+'''bash
+ sudo yum install mysql-community-client -y
+ '''
+ '''bash
+ mysql -h sd-microservices-rds.c3ccqicgei1c.us-west-2.rds.amazonaws.com -P 3306 -u admin -p<test.sql
+'''
 ### Step 10 : Deploy Backend
 ```bash
 cd k8s-argocd/backend
