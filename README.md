@@ -43,9 +43,8 @@ Store the following secrets in your GitHub repository settings:
 
 ```bash
 yum install git -y
+aws configure
 ```
-'''aws configure
-'''
 ### 5. Install Ingress-Nginx
 
 ```bash
