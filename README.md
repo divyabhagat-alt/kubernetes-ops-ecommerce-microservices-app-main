@@ -48,6 +48,7 @@ aws configure
 ### 5. Install Ingress-Nginx
 
 ```bash
+aws eks update-kubeconfig --region us-west-2 --name sd-eks-cluster
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
 kubectl get pods -n ingress-nginx
 kubectl get svc -n ingress-nginx
