@@ -11,7 +11,7 @@ data:
   #DB_PASSWORD: "root"
   #DB_NAME: "cloud"
 #if mysql on RDS
-  DB_HOST: "sd-microservices-rds.cniqeugmgbgg.us-west-2.rds.amazonaws.com"
+  DB_HOST: "sd-microservices-rds.c3ccqicgei1c.us-west-2.rds.amazonaws.com"
   DB_USER: "admin"
   DB_PASSWORD: "Cloud123"
   DB_NAME: "cloud"
